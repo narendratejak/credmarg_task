@@ -82,112 +82,22 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Dependency directories
-node_modules/
-jspm_packages/
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Optional REPL history
-.node_repl_history
-
-# Output directories
-dist/
-build/
-coverage/
-
-# Next.js
-.next/
-
-# Nuxt.js
-.nuxt
+node_modules
 dist
+dist-ssr
+*.local
 
-# Vuepress
-.vuepress/dist
-
-# Serverless directories
-.serverless/
-
-# FuseBox
-.fusebox/
-
-# DynamoDB Local files
-.dynamodb/
-
-# TernJS IDE helper directory
-.tern-port
-
-# dotenv environment variable files
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# gatsby files
-.cache/
-
-# Parcel-bundler cache
-.cache, .parcel-cache
-
-# Svelte
-__sapper__/
-public/
-
-# VS Code
-.vscode/
-
-# Mac System files
-#####################
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-
-# Windows System files
-#######################
-Thumbs.db
-ehthumbs.db
-
-# Java/Maven
-###################
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-
-# JetBrains
-.idea/
-*.iws
-*.iml
-*.ipr
-
-# Windows
-##################
-# Windows image file caches
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 # End of file
